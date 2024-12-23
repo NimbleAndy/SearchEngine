@@ -6,26 +6,26 @@ cd C:FolderPath\FinalProject
 ```
 
 Then change into the microsearch directory by
-bash 
+```bash 
 cd microsearch
-
+```
 Then Create a python virtual environment
 
 ```bash
 python -m venv venv
 ```
 After *activating the environment* you should still be in microsearch after creating the virtual environment
-bash
+```bash
 venv\Scripts\activate
-
+```
 and install the package and the dependencies
-bash
+```bash
 pip install .
-
+```
 after installation launch the app
-bash
+```bash
 python -m app.app --data-path output.parquet
-
+```
 and if you navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) you'll be able to query the engine.
 
 
