@@ -10,10 +10,11 @@ bash
 cd microsearch
 
 Then Create a python virtual environment
-bash
-python -m venv venv
 
-==activate the environment== you should still be in microsearch after creating the virtual environment
+```bash
+python -m venv venv
+```
+*activate the environment* you should still be in microsearch after creating the virtual environment
 bash
 venv\Scripts\activate
 
