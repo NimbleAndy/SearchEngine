@@ -1,7 +1,10 @@
 Once you save and unzip the folder
 
 Navigate to the project directory:
-C:FolderPath\FinalProject   
+```bash
+cd C:FolderPath\FinalProject   
+```
+
 Then change into the microsearch directory by
 bash 
 cd microsearch
@@ -28,8 +31,6 @@ and if you navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) you'll b
 Here's how to add the test running instructions to your README:
 
 ```markdown
-[Previous installation steps...]
-
 # Running the App
 After installation launch the app
 ```bash
