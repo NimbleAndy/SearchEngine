@@ -1,0 +1,14 @@
+# Ignore virtual environments
+venv/
+
+# Ignore Python bytecode
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore cache folders
+__pycache__/
+
+output.parquet
+
